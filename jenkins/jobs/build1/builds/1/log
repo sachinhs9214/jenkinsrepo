@@ -1,0 +1,22 @@
+Started by user [8mha:////4JM+Ol4dAuplI+wsv/ldOotFN3rrb6B0C3Zf4cgP3vJPAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYe/dLi1CL94sTkjMw8AINnGd7BAAAA[0msachin h s
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sachinhs9214/cprogramme.git
+ > git init /var/lib/jenkins/workspace/build1 # timeout=10
+Fetching upstream changes from https://github.com/sachinhs9214/cprogramme.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/sachinhs9214/cprogramme.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sachinhs9214/cprogramme.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e696995c4a3c98fc174d7f5f79c6cc8dbdc2b8f2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e696995c4a3c98fc174d7f5f79c6cc8dbdc2b8f2 # timeout=10
+Commit message: "commit to github"
+First time build. Skipping changelog.
+Finished: SUCCESS
